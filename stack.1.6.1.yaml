@@ -1,0 +1,18 @@
+resolver: lts-18.28
+packages:
+  - .
+extra-deps:
+- amazonka-1.6.1
+- http-client-0.5.14@sha256:4880b27d6741e331454a1d4c887d96ce3d7d625322c8433983a4b1cd08538577,5348
+- unliftio-core-0.1.2.0
+# Uncomment to try the fix:
+#- github: chreekat/amazonka
+#  commit: b/1.6.1-r2-compat
+#  subdirs:
+#    - core
+
+nix:
+  pure: false
+  packages:
+    - zlib
+    - postgresql

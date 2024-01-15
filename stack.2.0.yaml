@@ -1,0 +1,15 @@
+resolver: lts-22.4
+packages:
+  - .
+extra-deps:
+# Uncomment to see the fix:
+#- github: chreekat/amazonka
+#  commit: b/r2-compat
+#  subdirs:
+#    - lib/amazonka-core
+
+nix:
+  pure: false
+  packages:
+    - zlib
+    - postgresql

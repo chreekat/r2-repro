@@ -12,23 +12,19 @@ packages:
   original:
     hackage: amazonka-1.6.1
 - completed:
+    hackage: http-client-0.5.14@sha256:4880b27d6741e331454a1d4c887d96ce3d7d625322c8433983a4b1cd08538577,5348
+    pantry-tree:
+      sha256: 02bcffba9cad572fefb4640f5fc9be68e770b32ab73efcac649db20290994c6d
+      size: 2457
+  original:
+    hackage: http-client-0.5.14@sha256:4880b27d6741e331454a1d4c887d96ce3d7d625322c8433983a4b1cd08538577,5348
+- completed:
     hackage: unliftio-core-0.1.2.0@sha256:b0a7652ffce2284a6cebe05c99eb60573a8fb6631163f34b0b30a80b4a78cb23,1081
     pantry-tree:
       sha256: 9d970bf5f98e68e8fc129b04d6c9d8eb1e641c7556ffd0f0a168a259335b6fd7
       size: 328
   original:
     hackage: unliftio-core-0.1.2.0
-- completed:
-    commit: 5df643cc1deb561d9c52a9cb6f593aba2bc4c08e
-    git: https://github.com/commercialhaskell/pantry.git
-    name: pantry
-    pantry-tree:
-      sha256: 12ecb7840d240ffedf3dcc04353d00a4676ffa73b37d537350c087af1ff38982
-      size: 3618
-    version: 0.5.7
-  original:
-    commit: 5df643cc1deb561d9c52a9cb6f593aba2bc4c08e
-    git: https://github.com/commercialhaskell/pantry.git
 snapshots:
 - completed:
     sha256: 428ec8d5ce932190d3cbe266b9eb3c175cd81e984babf876b64019e2cbe4ea68
